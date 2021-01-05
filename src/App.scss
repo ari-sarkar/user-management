@@ -3,15 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+body{
     font-family: sans-serif;
 }
-body{
-    width: 80%;
-    margin: auto;
-    height: auto;
-    background-color: aliceblue;
+main{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
 }
-$color-green: "#2AC273";
-$color-red: "#F38181";
-$color-yellow: "#F38181";
+$color-green: #2AC273;
+$color-red: #F38181;
+$color-yellow: #FFBB41;
+$color-black: rgb(112, 111, 111);

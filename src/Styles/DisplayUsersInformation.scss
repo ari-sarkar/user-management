@@ -1,0 +1,77 @@
+@import "../App";
+#nav-user__display__input-container {
+  width: 80%;
+  height: 84%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  #display-user-wrapper {
+    width: 100%;
+    height: 100%;
+    //background-color: chocolate;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .add-user-btn {
+      width: 95%;
+      height: 3rem;
+      //background-color: cornflowerblue;
+      display: flex;
+      align-items: center;
+      button {
+        width: 100px;
+        height: 1.5rem;
+        border-radius: 18px;
+        outline: none;
+        border: none;
+        background-color: $color-green;
+        color: whitesmoke;
+        text-transform: uppercase;
+      }
+    }
+    .display-user-table {
+      width: 95%;
+      height: 80%;
+      table {
+        width: 100%;
+        height: auto;
+        //background-color: crimson;
+        //border: 1px solid $color-black;
+        border-collapse: collapse;
+        .table-row {
+          width: 90%;
+          height: 2rem;
+          //height: 2rem;
+          margin: 10px;
+          //border: 1px solid $color-black;
+        }
+        th {
+          //background-color: yellow;
+          border: 1px solid $color-black;
+          background-color: whitesmoke;
+          &:nth-child(1){
+              width: 100px;
+          }
+          &:nth-child(5){
+            width: 100px;
+        }
+        }
+        td{
+          border: 1px solid $color-black;
+          text-align: center;
+          &:nth-child(1){
+            width: 100px;
+        }
+        &:nth-child(5){
+          width: 100px;
+      }
+        }
+      }
+    }
+  }
+}

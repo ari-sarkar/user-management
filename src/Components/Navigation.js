@@ -2,9 +2,16 @@ import React from 'react'
 import "../Styles/Navigation.scss"
 const Navigation = () => {
     return (
-        <div>
-            
-        </div>
+        <nav id="navigation-container">
+            <ul>
+                <li>Tab</li>
+                <li>Tab</li>
+                <li>Tab</li>
+                <li>Tab</li>
+                <li>Tab</li>
+                <li>Setting</li>
+            </ul>
+        </nav>
     )
 }
 

@@ -1,0 +1,53 @@
+@import "../App"; 
+header{
+    width: 80%;
+    margin: auto;
+    height: 6rem;
+    border-bottom: 1px solid $color-black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    #logo-description-wrapper{
+        width: 300px;
+        height: 4rem;
+        //background-color: black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        img{
+            width: 20%;
+            height: 100%;
+        }
+        h2{
+            margin-left: 10px;
+            text-transform: uppercase;
+            color: $color-black;
+        }
+    }
+    #userimage-username-wrapper{
+        width: 300px;
+        height: 4rem;
+        //background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        #user-image-wrapper{
+            //background-color: rgb(199, 196, 196);
+            width: 60px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 10px;
+            img{
+                width: 60%;
+                height: 60%;
+                border-radius: 50%;
+            }
+        }
+        p{
+            color: $color-black;
+            font-size: 1.5em;
+        }
+    }
+}
