@@ -1,3 +1,8 @@
+$color-green: #2AC273;
+$color-red: #F38181;
+$color-yellow: #FFBB41;
+$color-black: rgb(209, 209, 209);
+$color-hover: #14e97b;
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +16,9 @@ main{
     height: 100vh;
     overflow-x: hidden;
 }
-$color-green: #2AC273;
-$color-red: #F38181;
-$color-yellow: #FFBB41;
-$color-black: rgb(112, 111, 111);
+button{
+    cursor: pointer;
+    &:hover{
+        background-color: $color-hover;
+      }
+}
