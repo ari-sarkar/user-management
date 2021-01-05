@@ -1,56 +1,56 @@
-@import "../App"; 
-header{
-    width: 80%;
-    margin: auto;
-    height: 6rem;
-    border-bottom: 1px solid $color-black;
+@import "../App";
+header {
+  width: 80%;
+  margin: auto;
+  height: 6rem;
+  border-bottom: 1px solid $color-black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  #logo-description-wrapper {
+    width: 280px;
+    height: 3rem;
+    //background-color: rgb(138, 135, 135);
+    border-right: 1px solid $color-black;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-bottom: 10px;
-    #logo-description-wrapper{
-        width: 280px;
-        height: 3rem;
-        //background-color: rgb(138, 135, 135);
-        border-right: 1px solid $color-black;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        img{
-            width: 50px;
-            height: 100%;
-        }
-        h2{
-            margin-left: 10px;
-            text-transform: uppercase;
-            color: rgb(88, 88, 88);
-            font-size: 1.3em;
-        }
+    justify-content: flex-start;
+    align-items: center;
+    img {
+      width: 50px;
+      height: 100%;
     }
-    #userimage-username-wrapper{
-        width: 200px;
-        height: 3rem;
-        //background-color: rgb(128, 128, 128);
-        border-left: 1px solid $color-black;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        #user-image-wrapper{
-            //background-color: rgb(199, 196, 196);
-            width: 60px;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            margin-right: 10px;
-            img{
-                width: 50%;
-                height: 50%;
-                border-radius: 50%;
-            }
-        }
-        p{
-            color: rgb(88, 88, 88);
-            font-size: 1em;
-        }
+    h2 {
+      margin-left: 10px;
+      text-transform: uppercase;
+      color: rgb(88, 88, 88);
+      font-size: 1.3em;
     }
+  }
+  #userimage-username-wrapper {
+    width: 200px;
+    height: 3rem;
+    //background-color: rgb(128, 128, 128);
+    border-left: 1px solid $color-black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    #user-image-wrapper {
+      //background-color: rgb(199, 196, 196);
+      width: 60px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 10px;
+      img {
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+      }
+    }
+    p {
+      color: rgb(88, 88, 88);
+      font-size: 1em;
+    }
+  }
 }

@@ -32,7 +32,7 @@
         background-color: $color-green;
         color: whitesmoke;
         text-transform: uppercase;
-        &:hover{
+        &:hover {
           background-color: $color-hover;
         }
       }
@@ -57,46 +57,47 @@
           //background-color: yellow;
           border: 1px solid $color-black;
           background-color: whitesmoke;
-          &:nth-child(1){
-              width: 100px;
-          }
-          &:nth-child(5){
+          &:nth-child(1) {
             width: 100px;
+          }
+          &:nth-child(5) {
+            width: 100px;
+          }
         }
-        }
-        td{
+        td {
           border: 1px solid $color-black;
           text-align: center;
-          &:nth-child(1){
+          &:nth-child(1) {
             width: 100px;
+          }
+          &:nth-child(5) {
+            width: 100px;
+          }
         }
-        &:nth-child(5){
-          width: 100px;
-      }
+        .trash-btn-wrapper {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-color: $color-green;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: auto;
+          border: none;
+          outline: none;
+          .trash-btn {
+            width: 20px;
+          }
+        }
+
+        .nodata {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          font-size: 1.3em;
+          transform: translate(-50%, -50%);
         }
       }
     }
   }
-}
-.trash-btn-wrapper{
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: $color-green;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  border: none;
-  outline: none;
-}
-.trash-btn{
-  width: 20px;
-}
-.nodata{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 1.3em;
-  transform: translate(-50%, -50%);
 }
